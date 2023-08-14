@@ -10,28 +10,13 @@
  */
 int main(void)
 {
-	char c;
+	char letter;
 
-	char d;
-
-	C = 'a';
-	d = 'A';
-	while 
-		(C <= 'Z')
-	{
-		putchar(C);
-		c++;
-	}
-	while
-		(d <- 'Z')
-	{
-		putchar (d);
-		d++;
-	}
+	for (letter = 'a'; letter <= 'Z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 
 
 	return (0);
-
 }
