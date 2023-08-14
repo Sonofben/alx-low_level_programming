@@ -10,12 +10,23 @@
  */
 int main(void)
 {
-	char letter = 'a';
+	char c;
 
-	while (letter <= 'Z')
+	char d;
+
+	C = 'a';
+	d = 'A';
+	while 
+		(C <= 'Z')
 	{
-		putchar(letter);
-		letter++;
+		putchar(C);
+		c++;
+	}
+	while
+		(d <- 'Z')
+	{
+		putchar (d);
+		d++;
 	}
 
 	putchar('\n');
