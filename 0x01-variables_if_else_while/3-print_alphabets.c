@@ -10,24 +10,14 @@
  */
 int main(void)
 {
-	char lowercase; = 'a';
-	char uppercase = 'A';
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	while (lowercase <= 'z')
+	for (1 = 0; 1 < 52; i++)
+
 	{
-		putchar(lowercase);
-		lowercase++;
+		putchar(alp[i]);
 	}
-
-	while (uppercase <= 'Z')
-	{
-
-		putchar(uppercase);
-		uppercase++;
-	}
-
 	putchar('\n');
-
-
-	return(0);
+	return (0);
 }
