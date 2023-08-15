@@ -10,16 +10,24 @@
  */
 int main(void)
 {
-	char lowercase;
-	char uppercase;
+	char lowercase; = 'a';
+	char uppercase = 'A';
 
-	for (lowercase = 'a'; lowercase <= 'Z'; lowercase++)
+	while (lowercase <= 'z')
+	{
 		putchar(lowercase);
+		lowercase++;
+	}
 
-	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
+	while (uppercase <= 'Z')
+	{
+
 		putchar(uppercase);
+		uppercase++;
+	}
 
 	putchar('\n');
 
-	return (0);
+
+	return(0);
 }
