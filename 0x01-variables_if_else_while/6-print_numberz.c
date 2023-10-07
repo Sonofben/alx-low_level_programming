@@ -1,16 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - prints the lowercase alphabet in reverse,
- * followed by a new line
+ * main - Entry point
+ *
+ * Description: Prints single-digit numbers in base 10
+ * followed by a newline using only putchar
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char ch;
-for (ch = 'z'; ch >= 'a'; ch--)
-{
-putchar(ch);
-}
-putchar('\n');
-return (0);
+    int i;
+
+    for (i = 0; i < 10; i++)
+    {
+        putchar(i + '0');
+    }
+
+    putchar('\n');
+
+    return (0);
 }
