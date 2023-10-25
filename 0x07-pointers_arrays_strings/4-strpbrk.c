@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strpbrk - fills memory with a constant byte.
- * @s: first bytes of the memory
- * @accept: constant byte b
- * Return: pointer to the resulting string dests
+ * _strpbrk - searches a string for any of a set of bytes.
+ * @s: The string to search.
+ * @accept: The set of bytes to search for.
+ *
+ * Return: A pointer to the byte in 's' that matches one of the bytes in 'accept'.
  */
 char *_strpbrk(char *s, char *accept)
 {
